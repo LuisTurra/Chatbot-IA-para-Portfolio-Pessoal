@@ -23,16 +23,14 @@ Um chatbot interativo embarcado no meu portfólio pessoal (https://luisturra.git
    git clone https://github.com/LuisTurra/portfolio-chatbot-cloudflare.git
    cd portfolio-chatbot-cloudflare
 
-2. Instale dependências (se não tiver):bash
 
-    npm install
+2. Faça login no Cloudflare (primeira vez):
 
-3. Faça login no Cloudflare (primeira vez):bash
-
+  ```bash
     npx wrangler login
 
-4. Deploy:bash
-
+3. Deploy:
+    ```bash
     npx wrangler deploy
 
 A URL do Worker será algo como https://seu-nome.seu-subdominio.workers.dev.
