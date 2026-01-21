@@ -47,6 +47,6 @@ Histórico de conversa (KV ou D1).
 Suporte multilíngue completo.
 Indicador "Digitando..." + cursor piscando.
 
-Feito com  por Luis Turra | Cientista de Dados | Portfólio | LinkedIn | X/Twitter
+Feito com  por Luis Turra | Cientista de Dados | Portfólio | LinkedIn 
 Última atualização: Janeiro 2026
 
