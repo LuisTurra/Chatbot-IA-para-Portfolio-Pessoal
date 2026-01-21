@@ -25,13 +25,13 @@ Um chatbot interativo embarcado no meu portfólio pessoal (https://luisturra.git
 
 
 2. Faça login no Cloudflare (primeira vez):
-
-  ```bash
+    ```bash
     npx wrangler login
 
 3. Deploy:
     ```bash
     npx wrangler deploy
+
 
 A URL do Worker será algo como https://seu-nome.seu-subdominio.workers.dev.
 
