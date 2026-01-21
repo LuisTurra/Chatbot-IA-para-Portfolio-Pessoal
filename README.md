@@ -25,30 +25,18 @@ Um chatbot interativo embarcado no meu portfólio pessoal (https://luisturra.git
 
 2. Instale dependências (se não tiver):bash
 
-npm install
+    npm install
 
 3. Faça login no Cloudflare (primeira vez):bash
 
-npx wrangler login
+    npx wrangler login
 
 4. Deploy:bash
 
-npx wrangler deploy
+    npx wrangler deploy
 
 A URL do Worker será algo como https://seu-nome.seu-subdominio.workers.dev.
 
-Embed no seu site (ex: portfólio):Adicione o <style>, <div id="chat-widget-container">...</div> e <script> no final do index.html.
-Atualize CHATBOT_URL com a URL do seu Worker.
-
-Estrutura do projeto
-
-.
-├── src/
-│   └── index.js          # Código principal do Worker (IA + prompt + CORS)
-├── wrangler.jsonc        # Configuração (bindings AI, name, etc.)
-├── package.json          # Dependências e scripts
-├── .gitignore
-└── README.md
 
 ## Por que esse projeto?
 Demonstra integração prática com GenAI em produção.
@@ -64,14 +52,3 @@ Indicador "Digitando..." + cursor piscando.
 Feito com  por Luis Turra | Cientista de Dados | Portfólio | LinkedIn | X/Twitter
 Última atualização: Janeiro 2026
 
-### Dicas finais
-- **Adicione imagens**: Tire screenshots do chat aberto (desktop e mobile), suba no repo (ex: `images/demo-desktop.png`) e linke no README com `![Demo Desktop](images/demo-desktop.png)`.
-- **License**: Adicione um MIT License se quiser (crie `LICENSE` com texto padrão).
-- **Link no portfólio principal**: No seu site, crie um card na seção "Projetos" com:
-  - Título: Chatbot IA Integrado ao Portfólio
-  - Descrição curta + tech stack
-  - Link pro repo novo + demo (seu site)
-
-Pronto! Esse repo vai ficar profissional, bem documentado e atrativo para recrutadores. Se quiser adicionar badges (ex: Cloudflare, JavaScript), posso te dar o código Markdown.
-
-Commitou? Me conta como ficou o README ou se precisa de ajustes! 🚀
