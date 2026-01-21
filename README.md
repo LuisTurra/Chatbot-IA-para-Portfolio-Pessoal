@@ -42,7 +42,7 @@ Mostra skills em serverless, edge computing e frontend interativo.
 Diferencial no portfólio: recrutadores podem interagir diretamente com IA sobre meus projetos reais.
 
 ## Próximos passos / Melhorias 
-possíveisAdicionar RAG (Vectorize + D1 para respostas mais precisas com docs do portfólio).
+Adicionar RAG (Vectorize + D1 para respostas mais precisas com docs do portfólio).
 Histórico de conversa (KV ou D1).
 Suporte multilíngue completo.
 Indicador "Digitando..." + cursor piscando.
